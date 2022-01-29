@@ -65,7 +65,7 @@ export default function Home() {
             }
             //  GMT+0530 (India Standard Time) 
             return (
-              <div className='flex max-w-5xl gap-5 md:gap-32 justify-between my-5 py-5 px-5 bg-slate-700 rounded '>
+              <div key={value.id} className='flex max-w-5xl gap-5 md:gap-32 justify-between my-5 py-5 px-5 bg-slate-700 rounded '>
 
                 <div>
                   <p className='text-lg'><b>{index + 1}.</b> {value.todo}</p>
